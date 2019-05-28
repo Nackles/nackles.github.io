@@ -55,6 +55,7 @@ h2 {
   font-size: 1.3em;
   padding: 1px;
   margin-right: 20%;
+  margin-top:50px;
   text-align: justify;
 }
 
@@ -62,8 +63,10 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.3em;
   padding: 5px;
+  margin-top:50px;
   margin-left: 20%;
   text-align: left;
+  
 }
 
 #profile_pic {
@@ -79,6 +82,11 @@ h2 {
   margin-right:20px;
 }
 
+.copyright {
+  color:gray;
+  text-align:center;
+}
+
 .content {
   background-color: #90caf9;
   /* height: 100px; */
@@ -88,6 +96,7 @@ h2 {
   position: relative;
   border-radius: 5px;
   align-items: center;
+  margin-bottom:1%;
 }
 
 #portfolio_title {
@@ -106,6 +115,7 @@ h2 {
 
 .portfolio_thumb {
   text-align: center;
+  margin-top: 3.5%;
 }
 
 .proj_description {
