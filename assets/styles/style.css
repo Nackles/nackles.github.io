@@ -1,0 +1,115 @@
+html,
+body {
+  /* Background pattern from https://leaverou.github.io/css3patterns/#weave */
+  background: linear-gradient(
+      135deg,
+      #708090 21px,
+      #d9ecff 22px,
+      #d9ecff 24px,
+      transparent 24px,
+      transparent 67px,
+      #d9ecff 67px,
+      #d9ecff 69px,
+      transparent 69px
+    ),
+    linear-gradient(
+        225deg,
+        #708090 21px,
+        #d9ecff 22px,
+        #d9ecff 24px,
+        transparent 24px,
+        transparent 67px,
+        #d9ecff 67px,
+        #d9ecff 69px,
+        transparent 69px
+      )
+      0 64px;
+  background-color: #708090;
+  background-size: 64px 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.altcol {
+  color: white;
+  font-size: 0.7em;
+}
+
+nav {
+  background-color: #f07a69;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f07a69;
+  border-radius: 5px;
+  padding-left: 12%;
+  margin-top: 3%;
+}
+
+.blurb {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  padding: 1px;
+  margin-right: 20%;
+  text-align: justify;
+}
+
+.blurb_left {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  padding: 5px;
+  margin-left: 20%;
+  text-align: left;
+}
+
+#profile_pic {
+  margin-bottom: 0px;
+  float:left;
+  padding-right: 15px;
+  margin-left: 20%;
+}
+
+#git_icon {
+  padding-top:4px;
+  padding-bottom:4px;
+  margin-right:20px;
+}
+
+.content {
+  background-color: #90caf9;
+  /* height: 100px; */
+  margin: auto;
+  margin-top: 1%;
+  /* padding: 1%; */
+  position: relative;
+  border-radius: 5px;
+  align-items: center;
+}
+
+#portfolio_title {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f07a69;
+  padding: 2px;
+  align-content: center;
+  border-radius:5px;
+}
+
+.proj_title {
+  font-size: 1.2em;
+  font-style:italic;
+}
+
+
+.portfolio_thumb {
+  text-align: center;
+}
+
+.proj_description {
+  text-align: justify;
+  margin-top:15px;
+  font-size: 1.1em;
+}
